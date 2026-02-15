@@ -44,10 +44,7 @@ class SimpleNeuralNet:
 + Optimization: Full-batch gradient descent with configurable learning rate
 + Regularization: Label smoothing to mitigate overfitting without dropout
 
-
-### Dataset
-This project features a completely original dataset of 100 Persian digit samples (10 samples per digit class 0-9) personally handwritten by the author specifically for this neural networks course project. 
-#### Model Architecture
+### Model Architecture
 ```
 Input Layer (784)
        ↓
@@ -59,8 +56,10 @@ Input Layer (784)
        ↓
 Output (10-class probability distribution)
 ```
+## Dataset
+This project features a completely original dataset of 100 Persian digit samples (10 samples per digit class 0-9) personally handwritten by the author specifically for this neural networks course project.  
 
-### Results
+## Results
 
 #### Performance Metrics:
 
@@ -76,7 +75,7 @@ Output (10-class probability distribution)
 ###### Convergence: Stable within 400 epochs
 
 
-### Directory Structure
+## Directory Structure
 ```
 Handwriting Recognition/
 ├── data/                 # Original handwritten dataset (subfolders 0-9)
@@ -88,7 +87,7 @@ Handwriting Recognition/
 ├── README.md             # This file
 ```
 
-### Project Structure
+## Project Structure
 ```
 handWriting.ipynb
 ├── Data Loading & Preprocessing
